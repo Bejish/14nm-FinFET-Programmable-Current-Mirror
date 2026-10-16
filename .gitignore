@@ -1,0 +1,106 @@
+# Synopsys Custom Compiler / Custom Designer
+*.db
+*.cdl
+*.spi
+*.sp
+*.netlist
+*.gds
+*.gdsii
+*.oasis
+*.oas
+*.lef
+*.def
+*.sdc
+*.spef
+*.spf
+*.dspf
+*.sav
+*.ses
+*.ses.sav
+*.log
+*.cmd
+*.cmdlog
+*.history
+*.tmp
+*.temp
+*.swp
+*~
+
+# StarRC / Parasitic Extraction
+*.starrc
+*.nxtgrd
+*.cap
+*.res
+*.coupling
+*.extracted
+
+# Simulation outputs
+*.tr0
+*.sw0
+*.ac0
+*.mt0
+*.ms0
+*.pa0
+*.print
+*.measure
+*.lis
+*.out
+*.raw
+*.fsdb
+*.vcd
+*.wlf
+*.trn
+*.psf
+*.psfbin
+
+# HSPICE / CustomSim
+*.hsp
+*.inc
+*.lib
+*.mod
+*.cir
+
+# Result folders
+results/
+sim/
+sim_results/
+extraction/
+layout_results/
+post_layout/
+waveforms/
+plots/
+
+# PDK & Foundry (NEVER commit)
+*PDK*
+*pdk*
+*SAED*
+*saed*
+*14nm*
+tech/
+lib/
+stdcell/
+io/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
